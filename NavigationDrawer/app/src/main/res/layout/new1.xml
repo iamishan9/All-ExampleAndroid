@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="7dp"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView android:id="@+id/nws1"
+
+            android:src="@mipmap/bhagya1"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView android:id="@+id/txt1"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/nws1"
+            android:text="Online khabar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView android:layout_below="@+id/txt1"
+            android:text="25 min ago"
+            android:layout_toRightOf="@+id/nws1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ImageView android:src="@mipmap/bhagya"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:text="US President-elect Donald Trump and the cast of
+         Hamilton have traded barbs after his running mate was booed at a performance of the
+         Broadway musical."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <View android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#796f6f"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/login"></View>
+    </LinearLayout>

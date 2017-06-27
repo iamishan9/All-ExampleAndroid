@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_change_fragment_with_tab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.bhagya.contentcheck.ChangeFragment_withTab">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView  android:id="@+id/tab1"
+        android:background="#f00"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_weight="1"
+        android:text="Tab1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView  android:id="@+id/tab2"
+        android:background="#00f"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_weight="1"
+        android:text="Tab2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView  android:id="@+id/tab3"
+        android:background="#0f0"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_weight="1"
+        android:text="Tab3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@+id/mainfragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+    
+
+
+</LinearLayout>

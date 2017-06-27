@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <TextView android:id="@+id/login"
+
+        android:textSize="26dp"
+        android:text="Log In"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView android:src="@drawable/ic_arrow_back_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/login"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView android:src="@drawable/ic_clear_black_24dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView android:id="@+id/logo"
+        android:src="@mipmap/logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+    <TextView android:id="@+id/neprent"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textColor="#2c6e94"
+        android:layout_below="@id/logo"
+        android:textSize="34dp"
+        android:text="NEP RENT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/text1"
+        android:layout_margin="20dp"
+    android:layout_below="@id/neprent"
+    android:layout_marginTop="50dp"
+    android:hint="USERNAME                        "
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <EditText android:id="@+id/text2"
+        android:layout_below="@+id/text1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/ic_help_black_24dp"
+        android:hint="PASSWORD                        "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button android:id="@+id/login1"
+        android:background="#2c6e94"
+        android:layout_below="@+id/text2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:layout_height="35dp"
+        android:text="LOG IN"
+        android:layout_width="wrap_content"
+
+        />
+    <Button android:id="@+id/sinup"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/text2"
+        android:layout_toRightOf="@+id/login1"
+        android:background="#14f108"
+        android:textColor="#fff"
+        android:text="SIGN UP"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        />
+    <TextView android:id="@+id/logwith"
+        android:textSize="25dp"
+        android:layout_below="@+id/sinup"
+        android:text="Log In With"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+    <Button android:id="@+id/facebook"
+android:layout_marginLeft="58dp"
+android:drawableLeft="@mipmap/logo3"
+        android:text="With Facebook"
+        android:background="#2c6e94"
+        android:layout_below="@+id/logwith"
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:text="With GOogle+"
+        android:layout_toRightOf="@id/facebook"
+        android:textColor="#fff"
+        android:background="#f70606"
+        android:layout_below="@+id/logwith"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/button" />
+
+
+</RelativeLayout>

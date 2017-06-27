@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/registerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Name" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/emailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email id" />
+
+    <EditText
+        android:id="@+id/phoneno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MObile No" />
+
+    <EditText
+        android:id="@+id/adress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adress...." />
+
+    <Button
+        android:id="@+id/sinup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#6fa8d7"
+        android:text="sinup" />
+</LinearLayout>

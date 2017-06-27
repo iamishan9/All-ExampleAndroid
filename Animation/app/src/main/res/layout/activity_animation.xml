@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_animation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context="com.bhagya.animation.AnimationActivity">
+
+    <LinearLayout
+        android:id="@+id/v1"
+        android:layout_width="50dp"
+
+        android:layout_height="50dp"
+        android:background="#CE93D8"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="B"
+            android:textColor="#fff"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/v2"
+        android:layout_width="50dp"
+
+        android:layout_height="50dp"
+        android:background="#BA68C8"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="H"
+            android:textColor="#fff"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/v3"
+        android:layout_width="50dp"
+
+        android:layout_height="50dp"
+        android:background="#AB47BC"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="A"
+            android:textColor="#fff"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/v4"
+        android:layout_width="50dp"
+
+        android:layout_height="50dp"
+        android:background="#9C27B0"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="G"
+            android:textColor="#fff"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/v5"
+        android:layout_width="50dp"
+
+        android:layout_height="50dp"
+        android:background="#8E24AA"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Y"
+            android:textColor="#fff"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/v6"
+        android:layout_width="50dp"
+
+        android:layout_height="50dp"
+        android:background="#7B1FA2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/B"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="A"
+            android:textColor="#fff"
+            android:textSize="50dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

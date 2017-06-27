@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/ic_arrow_back_black_24dp"/>
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:textSize="23dp"
+        android:gravity="center"
+
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_clear_black_24dp"/>
+    </LinearLayout>
+    <EditText
+        android:padding="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:hint="Name"/>
+    <EditText
+        android:padding="12dp"
+        android:hint="Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:padding="12dp"
+        android:hint="Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:padding="12dp"
+        android:hint="Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+    android:padding="12dp"
+    android:hint="Email"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <EditText
+        android:padding="12dp"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        />
+
+</LinearLayout>
